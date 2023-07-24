@@ -52,7 +52,7 @@ const HeroBanner = () => {
         fontWeight={600}
         fontSize="200px"
         color="#7743DB"
-        sx={{ opacity: 0.1, display: { lg: "block", xs: "none" } }}
+        sx={{ opacity: 0.2, display: { lg: "block", xs: "none" } }}
       >
         Exercises
       </Typography>

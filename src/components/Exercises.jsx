@@ -51,7 +51,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       mt={"50px"}
       p={"20px"}
     >
-      <Typography variant="h3" mb={"46px"}>
+      <Typography mb={"46px"} color="#BB86FC" variant="h4" >
         Showing Results
       </Typography>
       <Stack
@@ -73,10 +73,10 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
       <Stack mt="100px" alignItems={"center"}>
         {exercises.length > 6 && (
           <Pagination
-            color="standard"
+            color="primary"
             shape="rounded"
             defaultPage={1}
-            count={Math.ceil(exercises.length / 9)}
+            count={Math.ceil(exercises.length / 6)}
             page={currentPage}
             onChange={paginate}
             size="large"

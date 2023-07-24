@@ -32,23 +32,23 @@ const Detail = ({ exerciseDetail }) => {
             <Stack sx={{
                 gap: {lg: '35px', xs: '20px'}
             }}>
-                <Typography variant='h4' pt={'10px'} textTransform={"capitalize"}>
+                <Typography variant='h4' pt={'10px'} textTransform={"capitalize"} color="#BB86FC">
                     {name}
                 </Typography>
-                <Typography variant='h6' >
+                <Typography variant='h6' color="#BB86FC" >
                     Exercises keep you strong. {name} is one of the best exercises to trgret your {target}. It will help you improve your mood and gain energy.
                 </Typography>
                 {extraDetail.map((item, index) => (
                     <Stack key={index} direction={'row'} gap={'24px'} alignItems={'center'} >
                         <Button sx={{
-                            background: '#fff2db',
+                            background: '#3700B3',
                             borderRadius: '50%',
-                            width: '70px',
-                            height: '70px'
+                            width: '75px',
+                            height: '75px'
                         }} >
                             <img src = {item.icon} alt={bodyPart}  />
                         </Button>
-                        <Typography textTransform={'capitalize'} variant='h5'>
+                        <Typography textTransform={'capitalize'} variant='h5' color="#BB86FC">
                             {item.name}
                         </Typography>
                     </Stack>

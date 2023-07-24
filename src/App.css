@@ -1,14 +1,17 @@
 body {
   font-family: 'Josefin Sans';
-  background-color: #FCFDF2;
+  /* background-color: #BB86FC;
+  background-color: #03DAC6;
+  background-color: #3700B3; */
+  background-color: #121212;
 }
 
 * {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  color: #3B3486;
-  /* color: #BB86FC; */
+  /* color: #3B3486; */
+  color: #BB86FC;
 
 }
 
@@ -63,14 +66,15 @@ body {
   height: 500px;
   margin-top: -200px;
   border-radius: 20px;
-  box-shadow: 5px 5px 20px #00000075;
+  box-shadow: 5px 5px 20px #000000a8;
 }
 
 .exercise-card {
   width: 300px;
   /* height: 375px; */
-  background: #FCFDF2;
-  box-shadow: 5px 5px 15px #00000071;
+  background: #3b3486e7;
+  padding: 5px;
+  box-shadow: 10px 10px 20px #00000071, -10px 10px 20px #00000096;
   border-top: 4px solid #3B3486;
   border-bottom-left-radius: 20px;
   text-decoration: none;

@@ -10,9 +10,9 @@ const BodyPart = ({ item, setBodyPart, bodyPart}) => {
       justifyContent="center"
       className='bodyPart-card'
       sx={{
-        borderTop: (bodyPart === item) && '10px solid #3700B3',
-        backgroundColor: '#FCFDF2',
-        boxShadow: '5px 5px 15px #00000071',
+        borderTop: (bodyPart === item) && '10px solid #BB86FC',
+        backgroundColor: '#121212',
+        boxShadow: '10px 10px 20px #00000096, -5px 5px 10px #00000096',
         borderBottomLeftRadius: '20px',
         width: '200px',
         height: '200px',
@@ -26,7 +26,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart}) => {
       }}
     >
       <img src={Icon} alt='dumbbel' style={{ width: '40px', height: '40px'}} />
-      <Typography fontSize={'24px'} fontWeight={'bold'} color={'#3A1212'} textTransform={'capitalize'} >{item}</Typography>
+      <Typography fontSize={'24px'} fontWeight={'bold'} color={'#BB86FC'} textTransform={'capitalize'} >{item}</Typography>
     </Stack>
   )
 }

@@ -42,7 +42,7 @@ const ExerciseDetail = () => {
       paddingRight: {lg: '50px', xs: '10px'}
     }}>
       <Detail  exerciseDetail = {exerciseDetail} />
-      <ExerciseVideos exerciseVideos = {exerciseVideos} name = {exerciseDetail.name} />
+      <ExerciseVideos exerciseVideos = {exerciseVideos} exerciseName = {exerciseDetail.name} />
       <SimilarExercises targetMuscleExercises = {targetMuscleExercises} equipmentExercises = {equipmentExercises} />
     </Box>
   )

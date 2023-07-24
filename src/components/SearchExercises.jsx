@@ -55,8 +55,8 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
               borderRadius: "4px",
             },
             width: { lg: "800px", xs: "350px" },
-            // backgroundColor: "#fff",
-            borderRadius: "40px",
+            // backgroundColor: "#BB86FC",
+            // borderRadius: "40px",
           }}
           height="76px"
           value={search}
@@ -87,7 +87,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       </Box>
       <Box sx={{ position: "relative", width: "100%", p: "0px" }}>
         {bodyParts.length == 0 ? (
-          <Typography variant="h6">Not Available Yet</Typography>
+          <Typography variant="h6" align="center">Not Available Yet</Typography>
         ) : (
           <HorizontalScrollbar
             data={bodyParts}

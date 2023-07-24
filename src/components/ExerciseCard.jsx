@@ -7,12 +7,12 @@ const ExerciseCard = ({ exercise }) => {
     <Box sx={{ transform: {lg: 'scale(1)', xs : 'scale(0.9)'} }}>
       <Link className="exercise-card" to={`/Gym-App/exercise/${exercise.id}`}>
         <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" />
-        <Stack direction={"row"} p='10px'>
+        <Stack direction={"row"} pt='25px'>
           <Button
             sx={{
               ml: "21px",
               color: "#fff",
-              background: "#ffa9a9",
+              background: "#BB86FC",
               fontSize: "14px",
               borderRadius: "20px",
               textTransform: "capitalize",
@@ -24,7 +24,7 @@ const ExerciseCard = ({ exercise }) => {
             sx={{
               ml: "21px",
               color: "#fff",
-              background: "#fcc757",
+              background: "#BB86FC",
               fontSize: "14px",
               borderRadius: "20px",
               textTransform: "capitalize",
@@ -35,7 +35,7 @@ const ExerciseCard = ({ exercise }) => {
         </Stack>
         <Typography
           ml="10px"
-          color={"#000"}
+          color={"#fff"}
           fontWeight={"bold"}
           mt={"11px"}
           p={"10px"}
